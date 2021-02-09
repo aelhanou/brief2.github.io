@@ -1,0 +1,141 @@
+/*for height of menu in mobile*/
+.main-menu ul {
+    margin-right: 0px;
+    font-size: 15px;
+ }
+
+ .main-menu ul>li {
+    padding-left: 0px;
+ }
+
+ .main-menu ul>li a {
+
+    padding: 15px 13px;
+    line-height: 20px;
+    font-size: 15px;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+ }
+
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .logo {
+       width: 150px;
+       align-items: center;
+    }
+
+    .main-menu ul {
+       margin-right: 0px;
+       font-size: 15px;
+    }
+
+    .main-menu ul>li {
+       padding-left: 6px;
+    }
+
+    .main-menu ul>li a {
+       padding: 15px 2px;
+       line-height: 20px;
+       font-size: 16px;
+       display: block;
+       font-weight: 500;
+       color: #fff;
+       text-transform: uppercase;
+    }
+ }
+
+ @media only screen and (min-width: 903px) and (max-width: 991px) {
+    .header {
+       min-height: 90px;
+    }
+
+    .logo {
+       width: 150px;
+       margin-left: 0px;
+       align-items: center;
+    }
+
+    .main-menu ul {
+       margin-top: 4px;
+       margin-right: -70px;
+    }
+
+    .main-menu ul>li {
+       padding-left: 4px;
+    }
+
+    .main-menu ul>li a {
+       padding: 12px 1px;
+       line-height: 20px;
+       font-size: 11px;
+       display: block;
+       font-weight: 500;
+       color: #fff;
+       text-transform: uppercase;
+    }
+
+    .main-menu .mean-last {
+       display: none;
+    }
+ }
+
+
+
+
+
+ @media only screen and (min-width :768px) and (max-width:903px) {
+
+    .header {
+       min-height: 90px;
+    }
+
+    .logo {
+       width: 130px;
+       margin-left: -35px;
+       align-items: center;
+    }
+
+    .main-menu ul {
+       margin-top: 4px;
+       font-size: 9px;
+       margin-right: -35px;
+    }
+
+    .main-menu ul>li {
+       padding-left: 1px;
+    }
+
+    .main-menu ul>li a {
+       padding: 15px 6px;
+       line-height: 20px;
+       font-size: 12px;
+       display: block;
+       font-weight: 500;
+       color: #fff;
+       text-transform: uppercase;
+    }
+
+    .main-menu .mean-last {
+       display: none;
+    }
+ }
+ 
+ @media only screen and (min-width: 599px) and (max-width: 767px) {
+
+
+    .menu-area-main {
+       height: 297px;
+       overflow-y: auto;
+    }
+ }
+
+ /*responsive height*/
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+
+    .menu-area-main {
+       height: 322px;
+       overflow-y: auto;
+    }
+ }

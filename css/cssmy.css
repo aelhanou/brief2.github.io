@@ -1,0 +1,246 @@
+     /*ignore the opacity for gallerie and events*/
+     .home_page .opacity {
+        background: rgba(0, 0, 0);
+     }
+
+     /* Gallerie Image */
+
+     .image,
+     .image1 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        overflow-x: scroll;
+        border: 4px solid red;
+        border-radius: 5px;
+     }
+
+     .image::-webkit-scrollbar,
+     .image1::-webkit-scrollbar {
+        display: none;
+     }
+
+     .image .imgGallerie,
+     .image1 .imgGallerie1 {
+        width: 15%;
+        height: 350px;
+        margin: 20px;
+     }
+
+
+     /*end of Gallerie Image */
+
+     /*responsive navbar*/
+
+
+
+     @media (max-width:1352px) {
+        /* Gallerie Image */
+
+        .image {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image .imgGallerie {
+           width: 25%;
+           height: 350px;
+           margin: 20px;
+        }
+
+        /*end of Gallerie Image */
+     }
+
+
+     @media (max-width:1004px) {
+        /* Gallerie Image */
+
+        .image {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image .imgGallerie {
+           width: 40%;
+           height: 350px;
+           margin: 20px;
+        }
+
+        /*end of Gallerie Image */
+     }
+
+
+     @media (max-width:590px) {
+        /* Gallerie Image */
+
+        .image {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image .imgGallerie {
+           width: 60%;
+           height: 350px;
+           margin: 20px;
+        }
+
+        /*end of Gallerie Image */
+     }
+
+    
+
+     /*Second Row*/
+
+     /* Gallerie Image */
+
+
+
+     /*end of Gallerie Image */
+
+     /*responsive navbar*/
+
+
+
+     @media (max-width:1352px) {
+        /* Gallerie Image */
+
+        .image1 {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image1::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image1 .imgGallerie1 {
+           width: 25%;
+           height: 350px;
+           margin: 20px;
+        }
+
+        /*end of Gallerie Image */
+     }
+
+
+     @media (max-width:1004px) {
+        /* Gallerie Image */
+
+        .image1 {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image1::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image1 .imgGallerie1 {
+           width: 40%;
+           height: 350px;
+           margin: 20px;
+        }
+
+        /*end of Gallerie Image */
+     }
+
+
+     @media (max-width:590px) {
+        /* Gallerie Image */
+
+        .image1 {
+
+           display: flex;
+           justify-content: center;
+
+           margin-top: 60px;
+           overflow-x: scroll;
+        }
+
+        .image1::-webkit-scrollbar {
+           display: none;
+        }
+
+        .image1 .imgGallerie1 {
+           width: 60%;
+           height: 350px;
+           margin: 20px;
+        }
+     }
+
+
+
+
+     .readMore {
+        width: 200px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        background-color: purple;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+     }
+
+     .readMore .rdMore {
+        text-align: center;
+        color: white;
+        cursor: pointer;
+     }
+
+
+     .readMore .rdMore:hover{
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      
+   }
+     .readMore:hover{
+      width: 200px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      background-color: black;
+      padding: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+   }

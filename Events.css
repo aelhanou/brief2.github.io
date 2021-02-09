@@ -1,0 +1,553 @@
+/*ignore the opacity for gallerie and events*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.home_page .opacity
+{
+    background: rgba(0,0,0);
+    min-height: 100px;
+}
+
+/*the first part*/
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+    border-bottom: 3px solid red;
+    
+}
+
+.eventImage {
+    display: flex;
+    justify-content: flex-start;
+    margin: 85px 5px 30px 10px;
+    width: 550px;
+    
+}
+
+
+.eventInfo {
+    display: flex;
+    width: 600px;
+    height: 540px;
+    margin-top: 86px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.eventInfo .titleBorder {
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 90px;
+    padding-right: 300px;
+    background-color: #dc3545;
+    
+}
+.eventInfo .titleBorder .title {
+    width: 400px;
+    padding: 0px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color:white;
+}
+
+.titleBorder1 {
+    display: none;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    
+}
+
+.date {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+   
+    width: 100%;
+    text-align: center;
+    padding: 23px 0px 23px 0px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: #dc3545;
+    color:white;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    
+    width: 100%;
+    text-align: center;
+    padding: 23px 0px 23px 0px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: #dc3545;
+    color:white;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+
+.seats {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    width: 100%;
+    text-align: center;
+    padding: 23px 0px 23px 15px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: #dc3545;
+    color:white;
+    font-size: 22px;
+    border-bottom: 3px solid black;
+}
+
+
+.ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dc3545;
+    color: white;
+    font-size: 22px;
+}
+.ticket:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+/*the end of the first part*/
+
+/*The second  part*/
+.AboutEvent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.titleAbout {
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: -30px;
+    background-color: #dc3545;
+    color: white;
+    border: 2px solid red;
+    border-radius: 22px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid red;
+}
+.ImageAboutEvent {
+    width: 500px;
+    margin-top: 40px;
+}
+.TxtAboutEvent {
+    border: 2px solid red;
+    margin-top: 40px;
+    width: 1200px;
+    word-break: break-all;
+    word-spacing: 12px;
+    line-height: 27px;
+    padding: 35px;
+    background-color: #DC3545;
+    color: white;
+}
+
+.expertAuthor {
+    margin-bottom: 100px;
+}
+
+.expertAuthor .expAuthor {
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: -135px;
+    background-color: #dc3545;
+    color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+}
+
+.distowfski {
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+.distowfski:hover{
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 120px;
+    transform: scale(1.5);
+}
+
+.dostoInfo {
+    display: flex;
+    
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 25px;
+}
+
+
+.image2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+}
+
+.albert {
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.albert:hover {
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 120px;
+    transform: scale(1.5);
+}
+.albertInfo {
+    display: flex;
+    
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.image3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 70px;  
+}
+
+.Charles {
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.Charles:hover {
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 120px;
+    transform: scale(1.5);
+}
+.CharlesInfo {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 25px;
+}
+
+@media  (max-width:1165px){
+  
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+    border-bottom: 3px solid red;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid red;
+}
+.ImageAboutEvent {
+    width: 900px;
+    height: 500px;
+    margin-top: 40px;
+}
+.image1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.distowfski:hover{
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 30px;
+    transform: scale(1.5);
+}
+.image2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.albert:hover {
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 30px;
+    transform: scale(1.5);
+}
+.image3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Charles:hover {
+    position: relative;
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 30px;
+    transform: scale(1.5);;
+}
+.titleBorder1 {
+    display: none;
+}
+}
+
+@media  (max-width:600px){
+  
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+        border-bottom: 3px solid red;
+        
+    }
+ 
+    .titleBorder {
+        width: 400px;
+        background-color: #dc3545;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .titleBorder .title { 
+          
+        margin: -91px;
+        font-size: 30px;
+        color:white;
+       
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        
+    }
+    
+    .date {
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid red;
+       
+        width: 80%;
+        text-align: center;
+        padding: 23px 0px 23px 0px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        background-color: #dc3545;
+        color:white;
+        font-size: 22px;
+        border-bottom: 2px solid black;
+    }
+    
+    .location{
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid red;
+        
+        width: 80%;
+        text-align: center;
+        padding: 23px 0px 23px 0px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        background-color: #dc3545;
+        color:white;
+        font-size: 22px;
+        border-bottom: 2px solid black;
+    }
+    
+    .seats {
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid red;
+        width: 80%;
+        text-align: center;
+        padding: 23px 0px 23px 15px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        background-color: #dc3545;
+        color:white;
+        font-size: 22px;
+        border-bottom: 3px solid black;
+    }
+
+    .eventImage {
+        display: flex;
+        justify-content: flex-start;
+        margin: 85px 5px 30px 10px;
+        width: 350px;
+        
+    }
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        border-bottom: 3px solid red;
+    }
+    .ImageAboutEvent {
+        width: 400px;
+        height: 400px;
+        margin-top: 40px;
+    }
+    .image1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .distowfski:hover{
+        position: relative;
+        width: 500px;
+        border: 5px solid red;
+        border-radius: 50%;
+        left: 30px;
+        transform: scale(1.5);
+    }
+    .image2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .albert:hover {
+        position: relative;
+        width: 500px;
+        border: 5px solid red;
+        border-radius: 50%;
+        left: 30px;
+        transform: scale(1.5);
+    }
+    .image3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Charles:hover {
+        position: relative;
+        width: 500px;
+        border: 5px solid red;
+        border-radius: 50%;
+        left: 30px;
+        transform: scale(1.5);;
+    }
+    .titleBorder1 {
+        display: none;
+    }
+}
+
+@media (max-width:401px)
+{
+    .about-bg .container h2{
+        margin-top: -20px;
+        font-size: 28px;
+        height: 100px;
+    }
+    .titleBorder {   
+        display: none;
+    }
+    .titleBorder1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background-color: #dc3545;
+        text-align: center;
+    }
+    .title1 {
+        color: white;
+        width: 300px;
+        height: 60px;
+        padding-top: 10px;
+    }
+    .distowfski {
+        width: 300px;
+        border: 5px solid red;
+        border-radius: 50%;
+    }
+    .albert {
+        width: 300px;
+        border: 5px solid red;
+        border-radius: 50%;
+    }
+    .Charles {
+        width: 300px;
+        border: 5px solid red;
+        border-radius: 50%;
+    }
+}
